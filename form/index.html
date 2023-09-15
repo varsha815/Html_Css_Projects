@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volkswagen Car Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40; /* Dark mode background color */
+            color: #fff; /* Dark mode text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-50 mt-5">
+        <h1 class="mb-4">Volkswagen Car Survey</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            
+            <h2 class="mt-4">Car Survey Questions:</h2>
+            <!-- 10 car survey questions -->
+            <div class="form-group">
+                <label for="question1">1. How satisfied are you with your Volkswagen car?</label>
+                <select class="form-control" id="question1">
+                    <option>Very Satisfied</option>
+                    <option>Satisfied</option>
+                    <option>Neutral</option>
+                    <option>Unsatisfied</option>
+                    <option>Very Unsatisfied</option>
+                </select>
+            </div>
+
+            <!-- Repeat the above structure for the other 9 questions -->
+            <div class="form-group">
+                <label for="question2">2. Which Volkswagen model do you own?</label>
+                <input type="text" class="form-control" id="question2">
+            </div>
+
+            <div class="form-group">
+                <label for="question4">3. What features do you like the most about your car?</label>
+                <textarea class="form-control" id="question4" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="question5">4. Have you experienced any issues with your car? If so, please describe.</label>
+                <textarea class="form-control" id="question5" rows="3"></textarea>
+            </div>
+
+           
+
+            <div class="form-group">
+                <label for="question7">5. Would you recommend Volkswagen to a friend?</label>
+                <select class="form-control" id="question7">
+                    <option>Definitely Yes</option>
+                    <option>Yes</option>
+                    <option>Not Sure</option>
+                    <option>No</option>
+                    <option>Definitely No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question8">6. How satisfied are you with the customer service at Volkswagen?</label>
+                <select class="form-control" id="question8">
+                    <option>Very Satisfied</option>
+                    <option>Satisfied</option>
+                    <option>Neutral</option>
+                    <option>Unsatisfied</option>
+                    <option>Very Unsatisfied</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question9">7. What improvements would you like to see in Volkswagen cars?</label>
+                <textarea class="form-control" id="question9" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="question10">8. Any additional comments or suggestions?</label>
+                <textarea class="form-control" id="question10" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
